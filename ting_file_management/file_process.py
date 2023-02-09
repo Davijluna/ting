@@ -35,6 +35,8 @@ def remove(instance):
 
 def file_metadata(instance, position):
     """Aqui irá sua implementação"""
-
-
-# print(process(txt_importer()))
+    test = instance.search(position)
+    try:
+        print(test)
+    except IndexError:
+        print("Posição inválida")

@@ -1,6 +1,7 @@
 from ting_file_management.abstract_queue import AbstractQueue
 # import threading, queue
 # fila = queue.Queue()
+#  A PRINCIPIO ESTA PRONTA.
 
 
 class Queue(AbstractQueue):

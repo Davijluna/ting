@@ -4,7 +4,7 @@
 
 def exists_word(word, instance):
     result = []
-    list = {}
+    # list = {}
     # test = instance
     for index in range(len(instance)):
         test = instance.search(index)
